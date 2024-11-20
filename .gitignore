@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment
+.env
+venv/
+.python-version
+
+# Log files
+logs/
+
+# C extensions
+*.so
+
+# IDE/Editors
+.vscode
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Reports on unit test, type hint coverage, etc
+reports/
+.coverage
+.cache
+
+# egg
+*.egg-info
+
+# docs
+public/
