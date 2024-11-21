@@ -7,16 +7,18 @@ More on data source: https://www.earthdata.nasa.gov/topics/human-dimensions/nigh
 """
 
 import json
-
+from pathlib import Path
 import numpy as np
 import rasterio
 from rasterio.features import rasterize
 from rasterio.mask import mask
 
-INPUT_PATH = "data/VNP46A2.A2024307.h19v03.001.2024315092628.h5"
+SCRIPT_PATH = Path(__file__).parent
+
+INPUT_PATH = SCRIPT_PATH / "data/VNP46A2.A2024307.h19v03.001.2024315092628.h5"
 
 # This is for masking the final data with the Berlin boundary
-with open("data/berlin.geojson") as f:
+with open(SCRIPT_PATH / "data/berlin.geojson") as f:
     BERLIN_BOUNDARY = json.load(f)
 
 # This is for clipping the data to the Berlin bbox
@@ -45,8 +47,9 @@ with rasterio.open(INPUT_PATH) as src:
 with rasterio.open(ntl_corrected_path) as src:
     # Crop the data to the Berlin bbox
     cropped_data, cropped_transform = mask(src, [BERLIN_BBOX], crop=True)
-    cropped_data = cropped_data[0]
     NO_DATA_VALUE = src.nodata
+    cropped_data = np.where(cropped_data == NO_DATA_VALUE, 0, cropped_data)[0]
+
 
 # Filter out the no data values for min/max calculation and make intervals using the ASCII_GRADIENT length
 filtered_data = cropped_data[cropped_data != NO_DATA_VALUE]
@@ -82,7 +85,7 @@ print(f"LiveEO coordinates are at row {row}, column {col}")
 masked_grouped_data[row, col] = 0
 
 # Write the masked data to a text file and also print it.
-with open("data/berlin_ntl.txt", "w") as f:
+with open(SCRIPT_PATH / "data/berlin_ntl.txt", "w") as f:
     for row in masked_grouped_data:
         row_str = "\t" + "".join(
             "🌎" if level == 0 else ASCII_GRADIENT[level - 1] for level in row
