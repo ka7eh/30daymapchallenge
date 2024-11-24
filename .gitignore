@@ -28,4 +28,5 @@ reports/
 *.egg-info
 
 # docs
-public/
+public/*
+!/public/index.html
