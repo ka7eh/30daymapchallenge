@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="240" height="160" tilewidth="24" tileheight="24" infinite="0" nextlayerid="13" nextobjectid="167">
+ <tileset firstgid="1" source="Office_Furniture_01.tsx"/>
+ <imagelayer id="12" name="background">
+  <image source="background.png" width="1400" height="939"/>
+ </imagelayer>
+ <objectgroup id="4" name="Objects">
+  <object id="11" name="desk_east_facing" gid="15" x="669.409" y="809.833" width="32" height="32" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="12" name="desk_east_facing" gid="15" x="670.742" y="849.083" width="32" height="32" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="13" name="desk_east_facing" gid="15" x="554.409" y="845.25" width="32" height="32" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="14" name="desk_east_facing" gid="15" x="432.576" y="811.917" width="32" height="32" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="15" name="desk_east_facing" gid="15" x="434.909" y="767.25" width="32" height="32" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="16" name="desk_east_facing" gid="15" x="432.242" y="724.583" width="32" height="32" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="23" name="desk_west_facing" gid="15" x="615.576" y="835.25" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="24" name="desk_west_facing" gid="15" x="728.576" y="880.25" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="25" name="desk_west_facing" gid="15" x="617.909" y="792.25" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="27" name="Player" type="player" x="1000.81" y="671.308">
+   <point/>
+  </object>
+  <object id="28" name="Camera" type="Camera" x="1019.09" y="675.458">
+   <properties>
+    <property name="camera" type="bool" value="true"/>
+    <property name="zoom" type="float" value="2"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="30" name="Internal Wall (Vertical)" type="wall" x="520.5" y="263.833" width="5.5" height="125.334">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="31" name="Internal Wall (Vertical)" type="wall" x="643.25" y="262.833" width="5.5" height="123.667">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="32" name="desk_west_facing" gid="15" x="618.5" y="876.5" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="33" name="desk_west_facing" gid="15" x="727" y="840" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="34" name="desk_west_facing" gid="15" x="728.5" y="800" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="35" name="desk_west_facing" gid="15" x="619" y="755.5" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="37" name="desk_east_facing" gid="15" x="555" y="802.5" width="32" height="32" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="38" name="desk_east_facing" gid="15" x="557" y="762.5" width="32" height="32" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="39" name="desk_east_facing" gid="15" x="555" y="724.5" width="32" height="32" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="40" name="desk_east_facing" gid="15" x="434" y="850" width="32" height="32" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="42" name="desk_west_facing" gid="15" x="492" y="880.5" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="43" name="desk_west_facing" gid="15" x="493.5" y="840" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="44" name="desk_north_facing" gid="15" x="1239.83" y="754.167" width="32" height="32">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="45" name="desk_west_facing" gid="15" x="495.5" y="756" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="48" name="meeting_room_desk" gid="18" x="1140" y="878" width="52" height="47.3333">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="49" name="Internal Wall (Vertical)" type="wall" x="699.916" y="599.833" width="5.5" height="424" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="50" name="Internal Wall (Vertical)" type="wall" x="627.25" y="491.167" width="5.5" height="229.666" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="51" name="Internal Wall (Vertical)" type="wall" x="960.584" y="600.5" width="5.5" height="221" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="52" name="Internal Wall (Vertical)" type="wall" x="961.917" y="552.5" width="5.5" height="93" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="54" name="Internal Wall (Vertical)" type="wall" x="958.583" y="602.834" width="5.5" height="215">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="55" name="Internal Wall (Vertical)" type="wall" x="770.583" y="610.5" width="5.5" height="204.333">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="56" name="desk_east_facing" gid="15" x="669.636" y="763.455" width="32" height="32" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="57" name="desk_west_facing" gid="15" x="1338.67" y="868" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="59" name="Internal Wall (Vertical)" type="wall" x="1085.92" y="709.167" width="5.5" height="121.666" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="60" name="Internal Wall (Vertical)" type="wall" x="1048.58" y="627.167" width="5.5" height="85.6663">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="61" name="Internal Wall (Vertical)" type="wall" x="1107.92" y="625.167" width="5.5" height="57.666" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="62" name="Internal Wall (Vertical)" type="wall" x="959.917" y="477.167" width="5.5" height="79.6663">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="63" name="Internal Wall (Vertical)" type="wall" x="959.917" y="385.167" width="5.5" height="45.6663">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="64" name="Internal Wall (Vertical)" type="wall" x="1047.25" y="807.167" width="5.5" height="82.3327" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="65" name="Internal Wall (Vertical)" type="wall" x="1239.59" y="807.5" width="5.5" height="128.666" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="66" name="Internal Wall (Vertical)" type="wall" x="1368.58" y="807.5" width="5.5" height="95.6657" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="67" name="Internal Wall (Vertical)" type="wall" x="1073.92" y="802.5" width="5.5" height="85.6663">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="68" name="Internal Wall (Vertical)" type="wall" x="1233.25" y="810.167" width="5.5" height="77.6663">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="69" name="desk_west_facing" gid="15" x="501.333" y="795.333" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="70" name="desk_north_facing" gid="15" x="1282" y="755.333" width="32" height="32">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="71" name="desk_south_facing" gid="15" x="1275.33" y="694.667" width="32" height="32" rotation="180">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="72" name="desk_south_facing" gid="15" x="1318" y="692.667" width="32" height="32" rotation="180">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="73" name="desk_south_facing" gid="15" x="1191.33" y="576.667" width="32" height="32" rotation="180">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="74" name="desk_south_facing" gid="15" x="1233.33" y="575.333" width="32" height="32" rotation="180">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="75" name="desk_south_facing" gid="15" x="1274" y="575.333" width="32" height="32" rotation="180">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="76" name="desk_south_facing" gid="15" x="1310.67" y="574.667" width="32" height="32" rotation="180">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="78" name="desk_north_facing" gid="15" x="1161.33" y="642.667" width="32" height="32">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="79" name="desk_north_facing" gid="15" x="1199.33" y="642.667" width="32" height="32">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="80" name="desk_north_facing" gid="15" x="1238.67" y="642.667" width="32" height="32">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="81" name="desk_north_facing" gid="15" x="1282.67" y="642.667" width="32" height="32">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="82" name="desk_north_facing" gid="15" x="1146" y="511.333" width="32" height="32">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="83" name="desk_north_facing" gid="15" x="1184.67" y="510.667" width="32" height="32">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="84" name="desk_north_facing" gid="15" x="1226.67" y="512" width="32" height="32">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="85" name="desk_north_facing" gid="15" x="1270.67" y="510" width="32" height="32">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="86" name="desk_south_facing" gid="15" x="1177.33" y="438.667" width="32" height="32" rotation="180">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="87" name="desk_south_facing" gid="15" x="1218" y="437.333" width="32" height="32" rotation="180">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="88" name="desk_south_facing" gid="15" x="1260" y="436" width="32" height="32" rotation="180">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="89" name="desk_south_facing" gid="15" x="1302" y="435.333" width="32" height="32" rotation="180">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="90" name="meeting_room_desk" gid="18" x="1232" y="387" width="52" height="47.3333">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="91" name="meeting_room_desk" gid="18" x="1221.33" y="303" width="52" height="47.3333">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="92" name="meeting_room_desk" gid="18" x="1192.53" y="101.105" width="92.1085" height="89.2722" rotation="88.9502">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="93" name="meeting_room_desk" gid="18" x="1025.33" y="133.667" width="88.6667" height="78">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="94" name="Internal Wall (Vertical)" type="wall" x="1043.92" y="143.167" width="5.5" height="284.333">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="95" name="Internal Wall (Vertical)" type="wall" x="1051.25" y="425.833" width="5.5" height="88.3333" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="96" name="Internal Wall (Vertical)" type="wall" x="1140.58" y="142.5" width="5.5" height="178.333" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="97" name="Internal Wall (Vertical)" type="wall" x="1192.51" y="344.757" width="5.5" height="63.7117" rotation="354.118">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="98" name="Internal Wall (Vertical)" type="wall" x="1317.92" y="313.833" width="5.5" height="127.666" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="99" name="Internal Wall (Vertical)" type="wall" x="1295.92" y="245.5" width="5.5" height="110.333" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="100" name="Internal Wall (Vertical)" type="wall" x="1181.98" y="250.275" width="5.5" height="37.5753" rotation="354.118">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="101" name="Internal Wall (Vertical)" type="wall" x="1174.37" y="20.9012" width="5.5" height="194.562" rotation="359.339">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="102" name="desk_west_facing" gid="1073741839" x="1021.33" y="868.667" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="103" name="meeting_room_desk" gid="18" x="729.334" y="453" width="170.667" height="49.3333">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="104" name="Internal Wall (Vertical)" type="wall" x="793.25" y="377.167" width="5.5" height="111.667" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="105" name="meeting_room_desk" gid="18" x="668.666" y="349.667" width="91.3337" height="64">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="106" name="meeting_room_desk" gid="18" x="539.666" y="354.667" width="91.3337" height="64">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="107" name="meeting_room_desk" gid="18" x="416.333" y="349.333" width="91.3337" height="64">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="108" name="Internal Wall (Vertical)" type="wall" x="803.25" y="479.834" width="5.5" height="51.6663">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="109" name="Internal Wall (Vertical)" type="wall" x="678.583" y="476.834" width="5.5" height="73.6663">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="110" name="Internal Wall (Vertical)" type="wall" x="623.25" y="498.5" width="5.5" height="53.6663">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="112" name="Internal Wall (Vertical)" type="wall" x="809.25" y="475.167" width="5.5" height="129.666" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="113" name="Internal Wall (Vertical)" type="wall" x="397.25" y="260.501" width="5.5" height="232.999">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="114" name="Internal Wall (Vertical)" type="wall" x="483.917" y="383.167" width="5.5" height="84.9993" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="115" name="Internal Wall (Vertical)" type="wall" x="616.583" y="383.5" width="5.5" height="92.9993" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="116" name="Internal Wall (Vertical)" type="wall" x="476.583" y="430.5" width="5.5" height="129.666">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="117" name="Internal Wall (Vertical)" type="wall" x="809.25" y="555.833" width="5.5" height="528.333" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="118" name="Internal Wall (Vertical)" type="wall" x="276.25" y="263.167" width="5.5" height="295.666">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="119" name="Internal Wall (Vertical)" type="wall" x="272.583" y="601.834" width="5.5" height="128.333">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="120" name="Internal Wall (Vertical)" type="wall" x="152.583" y="703.166" width="5.5" height="40.333">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="121" name="Internal Wall (Vertical)" type="wall" x="369.917" y="797.833" width="5.5" height="90.9997" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="122" name="Internal Wall (Vertical)" type="wall" x="399.25" y="797.167" width="5.5" height="118.333">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="123" name="Internal Wall (Vertical)" type="wall" x="273.917" y="772.5" width="5.5" height="141">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="124" name="Internal Wall (Vertical)" type="wall" x="151.917" y="767.833" width="5.5" height="148.333">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="125" name="Internal Wall (Vertical)" type="wall" x="157.25" y="701.833" width="5.5" height="129" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="126" name="Internal Wall (Vertical)" type="wall" x="274.917" y="633.5" width="5.5" height="63.6667" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="127" name="Internal Wall (Vertical)" type="wall" x="273.25" y="724.167" width="5.5" height="33.6667" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="128" name="Internal Wall (Vertical)" type="wall" x="209.25" y="637.5" width="5.5" height="90.9996">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="129" name="Internal Wall (Vertical)" type="wall" x="151.25" y="260.834" width="5.5" height="52.6662">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="130" name="Internal Wall (Vertical)" type="wall" x="151.917" y="371.834" width="5.5" height="37.6662">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="131" name="Internal Wall (Vertical)" type="wall" x="151.917" y="435.834" width="5.5" height="41.6662">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="132" name="Internal Wall (Vertical)" type="wall" x="159.25" y="472.167" width="5.5" height="129" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="133" name="Internal Wall (Vertical)" type="wall" x="156.583" y="404.167" width="5.5" height="129" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="134" name="Internal Wall (Vertical)" type="wall" x="156.583" y="338.833" width="5.5" height="129" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="135" name="Internal Wall (Vertical)" type="wall" x="99.25" y="528.5" width="5.5" height="75.666">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="136" name="Internal Wall (Vertical)" type="wall" x="98.5833" y="630.834" width="5.5" height="32.3327">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="137" name="Internal Wall (Vertical)" type="wall" x="104.583" y="660.167" width="5.5" height="77.6667" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="138" name="Internal Wall (Vertical)" type="wall" x="106.583" y="599.167" width="5.5" height="77.6667" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="139" name="Internal Wall (Vertical)" type="wall" x="344.583" y="662.5" width="5.5" height="62.9997" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="140" name="Internal Wall (Vertical)" type="wall" x="415.584" y="661.833" width="5.5" height="52.333" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="141" name="Internal Wall (Vertical)" type="wall" x="437.917" y="605.166" width="5.5" height="62.9997">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="142" name="Internal Wall (Vertical)" type="wall" x="363.25" y="605.5" width="5.5" height="61.333">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="143" name="Internal Wall (Vertical)" type="wall" x="523.25" y="606.5" width="5.5" height="60.333">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="144" name="Internal Wall (Vertical)" type="wall" x="648.583" y="661.167" width="5.5" height="119.666" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="145" name="Internal Wall (Vertical)" type="wall" x="644.583" y="607.833" width="5.5" height="60.333">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="146" name="desk_west_facing" gid="15" x="245.333" y="320" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="147" name="desk_west_facing" gid="15" x="248.667" y="359.333" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="148" name="desk_west_facing" gid="15" x="246" y="407.333" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="149" name="desk_west_facing" gid="15" x="248.667" y="448" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="150" name="desk_west_facing" gid="15" x="250.667" y="486.667" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="151" name="desk_east_facing" gid="15" x="188" y="417.333" width="32" height="32" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="152" name="desk_east_facing" gid="15" x="189.333" y="290" width="32" height="32" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="153" name="desk_east_facing" gid="15" x="183.333" y="374.667" width="32" height="32" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="154" name="desk_east_facing" gid="15" x="180" y="329.333" width="32" height="32" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="155" name="desk_east_facing" gid="15" x="185.333" y="456" width="32" height="32" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="156" name="desk_north_facing" gid="15" x="204" y="517.333" width="32" height="32">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="157" name="meeting_room_desk" gid="18" x="56.3331" y="321.333" width="64.0004" height="37.3333">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="158" name="meeting_room_desk" gid="18" x="53.9998" y="386" width="64.0004" height="37.3333">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="159" name="meeting_room_desk" gid="18" x="52.6665" y="458" width="64.0004" height="37.3333">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="160" name="meeting_room_desk" gid="18" x="62.6665" y="764" width="96.6671" height="67.3333" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="161" name="desk_west_facing" gid="15" x="194.667" y="830" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="162" name="desk_west_facing" gid="15" x="197.333" y="885.333" width="32" height="32" rotation="-90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="163" name="Internal Wall (Vertical)" type="wall" x="275.917" y="598.833" width="5.5" height="139.333" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="164" name="Internal Wall (Vertical)" type="wall" x="152.917" y="605.167" width="5.5" height="32.3327">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="165" name="Internal Wall (Vertical)" type="wall" x="168.583" y="633.167" width="5.5" height="15" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+  <object id="166" name="Internal Wall (Vertical)" type="wall" x="1321.92" y="403.167" width="5.5" height="120.999" rotation="90">
+   <properties>
+    <property name="CollisionType" value="Fixed"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="8" name="walls" width="140" height="100">
+  <properties>
+   <property name="solid" type="bool" value="true"/>
+  </properties>
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,64,64,64,64,64,64,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,64,64,64,64,64,64,64,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,64,64,64,64,64,64,64,64,64,64,64,64,0,0,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,64,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,64,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,64,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,64,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,64,64,64,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,64,64,64,64,64,64,0,0,0,0,0,0,0,0,0,19,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,28,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,28,0,17,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,25,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,27,0,14,0,0,0,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,41,43,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,53,0,7,0,0,0,0,28,0,0,13,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,56,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,7,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,64,64,64,64,64,64,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,64,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,64,0,0,0,0,0,0,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,64,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+</map>

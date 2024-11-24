@@ -1,0 +1,30 @@
+{
+    "name": "liveeo-memory",
+    "version": "1.1.0",
+    "description": "LiveEO Memory Game",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "start": "vite",
+        "build": "tsc && vite build",
+        "serve": "vite preview",
+        "test": "npm run build && ex-test -d ./dist -t ./test/test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ka7eh/liveeo-memory.git"
+    },
+    "keywords": [],
+    "author": "ka7eh",
+    "license": "BSD-2-Clause",
+    "bugs": {
+        "url": "https://github.com/ka7eh/liveeo-memory/issues"
+    },
+    "homepage": "https://github.com/ka7eh/liveeo-memory#readme",
+    "devDependencies": {
+        "@excaliburjs/plugin-tiled": "^0.29.2",
+        "excalibur": "0.29.3",
+        "typescript": "5.6.3",
+        "vite": "5.4.11"
+    }
+}
